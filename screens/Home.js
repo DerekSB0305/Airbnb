@@ -48,7 +48,8 @@ export default function Home(props) {
         <TouchableOpacity style={styles.contenedorImage} onPress={()=>props.navigation.navigate('Detail')}>
           {/* imagen de casa */}
           <ImageBackground
-            source={require("../assets/splash-icon.png")}
+            source={require("../assets/casa1.png")}
+            imageStyle={{ borderRadius: 20 }}
             style={styles.estiloImagenes}
           >
             <Text style={styles.TextoSale}>For sale</Text>
@@ -77,7 +78,8 @@ export default function Home(props) {
         <TouchableOpacity style={styles.contenedorImage}>
           {/* imagen de casa */}
           <ImageBackground
-            source={require("../assets/splash-icon.png")}
+            source={require("../assets/casa2.png")}
+            imageStyle={{ borderRadius: 20 }}
             style={styles.estiloImagenes}
           >
             <Text style={styles.TextoSale}>For sale</Text>
